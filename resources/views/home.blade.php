@@ -15,6 +15,7 @@
                     @endif
 
                     You are logged in!
+                    <strong >{{ Auth::user()->name }}</strong>
                 </div>
             </div>
         </div>
